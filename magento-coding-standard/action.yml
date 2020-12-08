@@ -10,7 +10,7 @@ inputs:
     required: false
 runs:
   using: 'docker'
-  image: 'docker://hieptransutunam/magento-coding-standard-action:latest'
+  image: 'docker://hieptransutunam/magento-coding-standard-action:1.0.1'
 branding:
   icon: 'code'  
   color: 'green'
