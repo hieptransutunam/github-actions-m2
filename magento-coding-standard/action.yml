@@ -1,9 +1,12 @@
 name: 'Magento 2 Coding Style'
-author: 'ExtDN'
+author: 'Sutunam'
 description: 'performs php static code analysis with the Magento 2 Coding Standard'
 inputs:
   phpcs_standard:
     description: 'Path to your own PHPCS file or a specific standard. Leave empty to use "Magento2".'
+    required: false
+  phpcs_ignore:
+    description: 'Folder to ignore standard.'
     required: false
 runs:
   using: 'docker'
